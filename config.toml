@@ -1,0 +1,64 @@
+baseurl = "/"
+relativeurls = true
+canonifyurls = true
+languageCode = "en-us"
+title = "Anthony Franklin"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+interests:
+-Data anaylsis 
+-Data Wrangling
+-Data Visiualization
+name: Anthony Franklin
+organizations:
+- name:Chromebook Data Science
+url:"http://jhudatascience.org/chromebookdatascience/index.html"
+
+
+
+[permalinks]
+    post = "/:1995/:08/:07/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/Antfrank"
+[[menu.main]]
+    name = "Twitter"
+    url = "hhttps://twitter.com/AnthonyDFrankl2""
+
+[params]
+    description = "A website built through Hugo and blogdown."
+
+    
+   Anthony Franlin is an Graduate from Shippensburg Univerity with a degree in socilogy. 
+    
+    
+    
+    
+    
+    
+    
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
